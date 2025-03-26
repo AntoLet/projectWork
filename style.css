@@ -1,0 +1,71 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Stile per il body della pagina */
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+/* Contenitore principale */
+.container {
+text-align: center;
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Stile per il titolo */
+h1 {
+color: #333;
+margin-bottom: 10px;
+}
+/* Stile per il paragrafo */
+p {
+color: #666;
+margin-bottom: 20px;
+}
+/* Stile per il pulsante di download */
+.download-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+15
+transition: background-color 0.3s;
+}
+/* Effetto hover per il pulsante di download */
+.download-button:hover {
+background-color: #0056b3;
+}
+
+/*
+Descrizione del codice CSS:
+ *: Selettore universale che rimuove margini e padding
+da tutti gli elementi, garantendo una resa omogenea.
+ body: Definisce lo stile del corpo della pagina,
+specificando il font, il colore di sfondo e utilizzando
+Flexbox per centrare il contenuto sia in verticale che in
+orizzontale.
+ .container: Stile applicato al contenitore principale,
+con testo centrato, sfondo bianco, padding interno,
+angoli arrotondati e un'ombra per creare un effetto di
+profondità.
+ h1: Imposta il colore e il margine inferiore del titolo
+principale.
+ p: Determina il colore del testo e il margine inferiore
+del paragrafo.
+ .download-button: Stile del pulsante di download,
+con padding, sfondo blu, testo bianco, rimozione della
+sottolineatura, angoli arrotondati e una transizione per
+l'effetto hover.
+ .download-button:hover: Modifica l'aspetto del
+pulsante quando viene passato il cursore sopra.
+*/
